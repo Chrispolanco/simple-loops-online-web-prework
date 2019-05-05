@@ -9,13 +9,9 @@ def loop_iterator(number_of_times)
   end
   
 end
-```
 
- ### times_iterator
 
- You might have seen the times iterator like `3.times do`. In our case we don't want to hard-code how many times we want to do it, we want to use `number_of_times` which we are passing in. 
 
- ```ruby
 def times_iterator(number_of_times)
   phrase = "Welcome to Flatiron School's Web Development Course!"
   
@@ -23,7 +19,6 @@ def times_iterator(number_of_times)
     puts phrase 
   end
 end
-```
 
  ### while_iterator
 
